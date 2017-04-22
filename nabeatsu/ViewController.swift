@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label.text = String(0)
     }
+    
     func isAho() ->Bool{
         //問題1: ３の倍数かどうか調べる
         if number % 3 == 0 { // =でなく==に注意する
