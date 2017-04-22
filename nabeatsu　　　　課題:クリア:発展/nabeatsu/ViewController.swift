@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             return true
         }
         
+        
         //問題2
         
         if number % 10 == 3 {
